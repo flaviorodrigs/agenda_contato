@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+#container{
+    background-color: rgb(227, 227, 227);
+    padding: 10px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.734);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    border-radius: 5px;
+}
+
+header{
+    display: flex;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+header img{
+    height: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 8px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form input{
+    font-size: 20px;
+    padding: 4px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+form button{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+table thead{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    height: 55px;
+}
+
+table tbody{
+    font-size: 17px;
+    text-align: center;
+}
+
+table tbody td{
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+table tbody tr{
+    height: 35px;
+}
